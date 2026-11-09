@@ -91,17 +91,27 @@ export const Navbar: React.FC<NavbarProps> = ({
         </nav>
 
         {/* Zone 3: 1 primary action */}
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <div className="hidden lg:flex items-center gap-1.5 text-xs text-[#786D5F] mr-2">
             <Award className="w-3.5 h-3.5 text-[#8C271E]" />
             <span>F01: Phạm Việt Anh (PH59336)</span>
           </div>
+
+          <a
+            href="/PH59336_F01_SourceCode.zip"
+            download="PH59336_F01_SourceCode.zip"
+            className="hidden sm:inline-flex items-center gap-1.5 px-3 py-2 text-xs font-medium text-[#24211E] bg-[#EFEAE2] hover:bg-[#E5DDCF] rounded-md transition-colors whitespace-nowrap border border-[#DCD3C4]"
+            title="Tải toàn bộ mã nguồn file ZIP để đẩy lên GitHub"
+          >
+            <span>Tải Code (.zip)</span>
+          </a>
+
           <button
             onClick={onOpenReport}
-            className="flex items-center gap-2 px-3.5 py-2 text-xs font-medium text-white bg-[#8C271E] hover:bg-[#721F17] rounded-md transition-colors whitespace-nowrap shadow-xs"
+            className="flex items-center gap-2 px-3.5 py-2 text-xs font-medium text-white bg-[#8C271E] hover:bg-[#721F17] rounded-md transition-colors whitespace-nowrap shadow-xs cursor-pointer"
           >
             <FileText className="w-3.5 h-3.5" />
-            <span>Báo cáo hồ sơ F01</span>
+            <span>Báo cáo F01</span>
           </button>
         </div>
 
