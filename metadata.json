@@ -1,0 +1,6 @@
+{
+  "name": "Hồ sơ số Làng nghề Truyền thống - F01",
+  "description": "Hệ thống hồ sơ số làng nghề truyền thống Việt Nam: Lịch sử, quy trình sản xuất từng bước, danh sách nghệ nhân đồng ý công bố thông tin và sản phẩm tiêu biểu. Đề tài F01 - SV: Phạm Việt Anh (PH59336).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
